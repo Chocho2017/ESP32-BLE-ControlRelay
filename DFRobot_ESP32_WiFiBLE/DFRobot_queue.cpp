@@ -230,7 +230,7 @@ char *getname_Dequeue(uint16_t conn_id)
 		}
 		p = p->next;
 	}
-	
+	return 0;
 }
 
 
